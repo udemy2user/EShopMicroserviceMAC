@@ -19,6 +19,7 @@
     },
     "https": {
       "commandName": "Project",
+      "launchBrowser": true,
       "applicationUrl": "https://localhost:5050;http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
@@ -40,8 +41,8 @@
         "ASPNETCORE_HTTPS_PORTS": "8081",
         "ASPNETCORE_HTTP_PORTS": "8080"
       },
-      "useSSL": true,
-      "publishAllPorts": true
+      "publishAllPorts": true,
+      "useSSL": true
     }
   }
 }
